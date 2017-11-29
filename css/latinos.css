@@ -53,20 +53,6 @@ h1 {  text-transform: uppercase;
       font-size: 250%;
       font-family: 'Cantarell', Verdana, sans-serif;}
 
-.beginning {font-size: 125%;
-}
-
-
-i {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-}
-
-.down {
-    transform: rotate(45deg);}
-
 
 .mex-timeline {margin: 2%;}
 
@@ -75,7 +61,7 @@ i {
           background-color: #000;}
 
 
-.beginning {font-size: 250%;
+.beginning {font-size: 215%;
             text-transform: uppercase;
             text-align: center;
           padding: 7%;}
@@ -98,9 +84,42 @@ i {
         z-index: -5;
         background-color: rgba(0,0,0, 0.6)}
 
-.beginning2 {font-size: 250%;
+.beginning2 {font-size: 215%;
             color: #fff;
             text-transform: uppercase;
             text-align: center;
-            padding: 12%;
+            padding-top: 12%;
+            padding-bottom: 2%;
             text-shadow: 2px 2px 4px #000000;}
+
+.arrow1 {
+  margin-left: 48%;
+  margin-top: 15%;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+}
+
+#button1 {padding-left: 45%;
+          padding-right: 45%;}
+
+
+
+#begin2 {padding: 2%;
+        padding: 1em 2em;
+        margin: auto;
+        background-color: #FFF;
+    }
+
+
+#map1 { height: 400px;
+        width: 100%;
+        padding-top: 2%;}
+
+#mapwrap {max-width: 800px;
+          align-items: center;}
+
+#text1 {padding-top: 2%;}
