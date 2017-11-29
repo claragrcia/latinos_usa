@@ -1,0 +1,106 @@
+* {box-sizing: border-box;
+  margin-top: 0;
+  }
+
+body {margin: 0px;
+    background: #fff;
+    color: #000;
+    font-family: 'Lato', Verdana, sans-serif;
+    font-size: 100%;
+}
+
+#top {margin: 0;}
+
+.begin { background-image: url('../images/hispanicflags2.jpg');
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10;
+}
+
+.intro-over {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0, 0.3);
+}
+.names {
+      margin-left: 20%;
+      margin-right: 20%;
+    text-shadow: 2px 2px 4px #000000;}
+
+
+
+#title {font-size: 300%;
+        text-align: center;
+        color: #fff;
+      padding-top: 22%;}
+
+  #subtitle {font-size: 200%;
+    text-align: center;
+      color: #fff;}
+
+
+
+
+h1 {  text-transform: uppercase;
+      font-size: 250%;
+      font-family: 'Cantarell', Verdana, sans-serif;}
+
+.beginning {font-size: 125%;
+}
+
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);}
+
+
+.mex-timeline {margin: 2%;}
+
+.intro1 {height: 100vh;
+          color: #fff;
+          background-color: #000;}
+
+
+.beginning {font-size: 250%;
+            text-transform: uppercase;
+            text-align: center;
+          padding: 7%;}
+
+.intro2  {height: 100vh;
+        background-image: url('../images/latinos2.jpg');
+        background-size: cover;
+        background-position: center;
+        position:relative;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        z-index: -10;}
+
+.over2 {
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -5;
+        background-color: rgba(0,0,0, 0.6)}
+
+.beginning2 {font-size: 250%;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 12%;
+            text-shadow: 2px 2px 4px #000000;}
