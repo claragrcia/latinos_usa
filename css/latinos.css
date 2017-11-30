@@ -5,7 +5,7 @@
 body {margin: 0px;
     background: #fff;
     color: #000;
-    font-family: 'Lato', Verdana, sans-serif;
+    font-family: 'Open Sans', Verdana, sans-serif;
     font-size: 100%;
 }
 
@@ -36,22 +36,32 @@ body {margin: 0px;
     text-shadow: 2px 2px 4px #000000;}
 
 
+h1 {font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;}
+
+
+.sub2 {color: #fff;
+    text-align: center;}
+
+#subtitle1 {font-size: 200%;
+              text-align: center;
+              color: #fff;
+              padding: 3%;}
 
 #title {font-size: 300%;
         text-align: center;
         color: #fff;
-      padding-top: 22%;}
-
-  #subtitle {font-size: 200%;
-    text-align: center;
-      color: #fff;}
-
-
-
-
-h1 {  text-transform: uppercase;
-      font-size: 250%;
-      font-family: 'Cantarell', Verdana, sans-serif;}
+      padding-top: 22%;
+      font-weight: bold;
+      border: solid;
+  border-width: 10px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-color: #000;
+  padding-bottom: 2%;}
+    }
 
 
 .mex-timeline {margin: 2%;}
@@ -61,10 +71,20 @@ h1 {  text-transform: uppercase;
           background-color: #000;}
 
 
-.beginning {font-size: 215%;
-            text-transform: uppercase;
-            text-align: center;
-          padding: 7%;}
+.beginning {font-size: 175%;
+          padding-top: 18%;
+          margin: 0;
+          padding-left: 20%;
+          padding-bottom: 5%;
+          font-weight: bold;
+
+          }
+
+.beginning1 {font-size: 175%;
+            margin: 0;
+            padding-left: 20%;
+            padding-bottom: 2%;
+          font-weight: bold;}
 
 .intro2  {height: 100vh;
         background-image: url('../images/latinos2.jpg');
@@ -84,13 +104,17 @@ h1 {  text-transform: uppercase;
         z-index: -5;
         background-color: rgba(0,0,0, 0.6)}
 
-.beginning2 {font-size: 215%;
+.beginning2 {font-size: 175%;
             color: #fff;
-            text-transform: uppercase;
-            text-align: center;
-            padding-top: 12%;
+            padding-top: 19%;
+            padding-left: 15%;
             padding-bottom: 2%;
-            text-shadow: 2px 2px 4px #000000;}
+            text-shadow: 2px 2px 4px #000000;
+          font-weight: bold;}
+
+.beginning3 {font-size: 225%;
+            background-color: rgba(91,0,0, 0.7);
+              color: #fff;}
 
 .arrow1 {
   margin-left: 48%;
@@ -108,18 +132,49 @@ h1 {  text-transform: uppercase;
 
 
 
-#begin2 {padding: 2%;
-        padding: 1em 2em;
+.general1 {
         margin: auto;
         background-color: #FFF;
     }
 
 
+    #growing {font-size: 200%;
+              color: #fff;
+              text-shadow: 2px 2px 4px #000000;
+              }
+
+    .headline1 {background-color: rgb(124, 18, 18);
+                width: 100%;
+              border: 2%;
+              padding: 2%;}
+
+
 #map1 { height: 400px;
         width: 100%;
-        padding-top: 2%;}
+}
 
-#mapwrap {max-width: 800px;
-          align-items: center;}
+#text1 {padding: 2em;
+        background-color: rgb(124, 18, 18);
+        color: #fff;
+      margin-top: 2em;
+    text-shadow: 1px 1px 2px #000000}
 
-#text1 {padding-top: 2%;}
+
+#pheno1 {max-width: 900px;
+        padding: 1em 2em;
+        margin: auto;}
+
+
+#timemex {width: 100%;
+          height: 100vh;
+          border: 0;
+          }
+
+#timepr {width: 100%;
+          height: 100vh;
+          border: 0;
+          }
+
+#timecub {width: 100%;
+          height: 100vh;
+          border: 0;}

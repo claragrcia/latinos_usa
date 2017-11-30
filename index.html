@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>Latinos in the USA</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
-<link href="https://fonts.googleapis.com/css?family=Cantarell|Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="map/map.css" rel="stylesheet" >
 <link href="css/latinos.css" rel="stylesheet">
@@ -20,12 +20,16 @@
 <body>
 <div class="latinDiv" id="top">
 
+
+
         <div class="begin">
             <div class= "intro-over">
               <div class="names">
 
              <h1 id="title">Latinos in the United States</h1>
-             <h2 id="subtitle">A Force Awakening </h2>
+             <h2 id="subtitle1">A Force Awakening </h2>
+             <p class="sub2">By Clara Garcia </p>
+             <p class="sub2"><em>December 2017</em></p>
 
 
 
@@ -35,7 +39,7 @@
                   </a>
          </div> <!-- begin -->
 </div> <!-- over -->
-
+</div>
 
 <div class="latinDiv" id="statements">
 
@@ -44,7 +48,7 @@
 
   <p class="beginning">For decades, Latinos have been reshaping the United States.</p>
 
-  <p class="beginning"> Today, they are the largest minority in the country. </p>
+  <p class="beginning1"> Today, they are the largest minority in the country. </p>
 
 </div>
 
@@ -62,33 +66,31 @@
 </div>
 
 
-<div class="general1" id="begin2">
+<section class="general1" id="begin2">
 
+<div class="headline1">
+<h1 id="growing"> Growing Phenomenon </h1>
+</div>
+
+<div id="pheno1">
 
 <div id="mapwrap">
-<h1 id="growing"> Growing Phenomenon </h1>
   <div id="map1"></div>
 </div>
 
 <div id="text1">
-  <p> There are over 56 million Hispanics living in United States, accounting for 17.6% of the total U.S. population. The Census Bureau estimates that by 2060, Latinos will comprise 28% of the country's total population.</p>
+  <p> There are over <strong>56 million Hispanics </strong> living in United States, accounting for 17.6% of the total U.S. population. The Census Bureau estimates that by 2060, Latinos will comprise 28% of the country's total population. The three largest groups of latinos are those who identify as being of Mexican origin, followed by Puerto Ricans, and Cubans. </p>
 
-  <p> The three largest groups of latinos are those who identify as being of Mexican origin, followed by Puerto Ricans, and Cubans. </p>
+  <p>More than half of the U.S. Hispanic population resides in three states: <em>California, Texas, and Florida.</em> These are followed by New York and Illinois.</p>
 
-  <p>More than half of the U.S. Hispanic population resides in three states: California, Texas, and Florida. These are followed by New York and Illinois.</p>
-</div>
-
-<div id="text-2">
-
-  <p>California has the nation’s largest Hispanic population, with about 14.4 million Hispanics. New Mexico is the state with the largest share of Latinos: there, they make up 46.7% of the state's population. </p>
-
-    <p>Maine, West Virginia, and Vermont have the lowest Hispanic population shares with 1% each. </p>
+  <p>California has the nation’s largest Hispanic population, with about 14.4 million Hispanics. New Mexico is the state with the largest share of Latinos: there, they make up 46.7% of the state's population. Maine, West Virginia, and Vermont have the lowest Hispanic population shares with 1% each. </p>
 
 </div>
+</div>
 
-  <section id="groups">
+  <div class="btn-group" id="buttons">
 
-  <h2>Learn more about each group: </h2>
+  <h3>Learn more about each group: </h3>
       <button type="button" class="issues1" data-slide="#mexican">Mexican-Americans/Mexican Immigrants</button>
       <button type="button" class="issues1" data-slide="#ricans">Puerto Ricans</button>
       <button type="button" class="issues1" data-slide="#cuban">Cuban-Americans/Cuban Immigrants</button>
@@ -126,7 +128,7 @@
 
   <h2> A Timeline of US-Mexico relations </h2>
 
-<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1KiqNAe-aYyF8Fa8OvLIellWiugnZl3GenF8EZK06olw&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+<iframe id="timemex" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1KiqNAe-aYyF8Fa8OvLIellWiugnZl3GenF8EZK06olw&font=Default&lang=en&initial_zoom=2&height=650'></iframe>
 
 <p> Source: <a href="http://www.pbs.org/latino-americans/en/timeline/"> PBS </a></p>
 </div>
@@ -192,7 +194,7 @@
 
     <h2> A Timeline of US-Puerto Rico relations </h2>
 
-<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1yO5Ks5FduW5VXHXD17NmjWSRsSmz_31_qCa28ewJ4pQ&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+<iframe id="timepr" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1yO5Ks5FduW5VXHXD17NmjWSRsSmz_31_qCa28ewJ4pQ&font=Default&lang=en&initial_zoom=2&height=650'></iframe>
 
 
 </div>
@@ -258,6 +260,7 @@
 
     <h2> A Timeline of US-Cuba relations </h2>
 
+<iframe id="timecub" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1bUPdZzWhAtZds-U3VRgMEdfQftv1GuY6YdZ7hEQ83ME&font=Default&lang=en&initial_zoom=2&height=650'></iframe>
 
   </div>
 
@@ -286,7 +289,7 @@
 
   <p>Things, however, began to change in 2014, when President Barack Obama announced the end of the embargo, and the renewal of ties with Cuba. Among the politics taken where opening a U.S embassy in the island and allowing U.S touristic travel. </p>
 
-  <p> This generated consequences for both the caribbean island and the United States. It opened Cuba to increased tourism and commerce, and the number of islanders entering the U.S. spiked dramatically.</p>In 2016, over 56,000 cubans entered the country, up 31% from fiscal 2015 when just a little bit over 43,000 came to the U.S. </p>
+  <p> This generated consequences for both the caribbean island and the United States. It opened Cuba to increased tourism and commerce, and the number of islanders entering the U.S. spiked dramatically.In 2016, over 56,000 cubans entered the country, up 31% from fiscal 2015 when just a little bit over 43,000 came to the U.S. </p>
 
   <p>In January 2017, President Obama announced the end of the dry-foot, wet-foot policy, making Cubans "normal" immigrants again. </p>
 
@@ -326,14 +329,13 @@
   </section>
 
 
-
-
   <footer>
   Web page done by Clara Garcia
   <button type="button" class="issue btn topbut" data-slide="#about">About this Site</button>
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
-  <script src="map/us-states2.js"> </script>
+  <script src="map/us-states2.js"></script>
    <script src="map/map1.js"></script>
   </body>
+</html>
