@@ -38,8 +38,12 @@ body {margin: 0px;
 
 h1 {font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 250%;}
+    font-size: 250%;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;}
 
+
+h2 {font-size: 175%;}
 
 .sub2 {color: #fff;
     text-align: center;}
@@ -132,18 +136,12 @@ h1 {font-family: 'Raleway', sans-serif;
 
 
 
-.general1 {
-        margin: auto;
-        background-color: #FFF;
+#begin2 {
+  margin: auto;
+  background-color: #FFF;
     }
 
-
-    #growing {font-size: 200%;
-              color: #fff;
-              text-shadow: 2px 2px 4px #000000;
-              }
-
-    .headline1 {background-color: rgb(124, 18, 18);
+.headline1 {background-color: rgb(124, 18, 18);
                 width: 100%;
               border: 2%;
               padding: 2%;}
@@ -178,3 +176,34 @@ h1 {font-family: 'Raleway', sans-serif;
 #timecub {width: 100%;
           height: 100vh;
           border: 0;}
+
+
+.btn-default {margin: 3px;
+            border: solid;
+            border-color: #000;
+            border-width: 1px;
+            margin-bottom: 3%;}
+
+.headings1 {padding-top: 2%;
+            background-color: #004d26;
+            color: #fff;
+            width: 100%;
+            border: 2%;
+            padding: 2%;
+        }
+
+
+.headings2 {padding-top: 2%;
+            background-color: rgb(204, 0, 0);
+            color: #fff;
+            width: 100%;
+            border: 2%;
+            padding: 2%;
+        }
+
+.headings3 {padding-top: 2%;
+            background-color: rgba(0, 0, 153, 0.8);
+            color: #fff;
+            width: 100%;
+            border: 2%;
+            padding: 2%;}
