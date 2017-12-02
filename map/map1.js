@@ -133,6 +133,8 @@ var geojson = L.geoJson(statesData).addTo(mymap);
         maxZoom: 18
     }).addTo(mapmex);
 
+
+// cali
     var circle1 = L.circle([34.621143, -116.656156], {
         color: 'red',
         fillColor: '#f03',
@@ -140,12 +142,18 @@ var geojson = L.geoJson(statesData).addTo(mymap);
         radius: 250000
     }).addTo(mapmex);
 
+    circle1.bindPopup('The large majority of Mexican Americans reside in California. <br> Los Angeles is the home of over 1.2 million people of Mexican ancestry.')
+    .openPopup();
+
+// Tucson
     var circle2 = L.circle([31.999280, -111.075174], {
       color: 'red',
       fillColor: '#f03',
       fillOpacity: 0.5,
       radius: 50000
     }).addTo(mapmex);
+    circle2.bindPopup('Arizona has one of the largest Mexican American populations.<br> The majority of them reside in Phoenix and Tucson.')
+    .openPopup();
 
     var circle3 = L.circle([28.103956, -97.236067], {
       color: 'red',
@@ -153,6 +161,8 @@ var geojson = L.geoJson(statesData).addTo(mymap);
       fillOpacity: 0.5,
       radius: 300000
     }).addTo(mapmex);
+    circle3.bindPopup('Mexican-Americans are the ethnic majority in South Texas.')
+    .openPopup();
 
 
     var circle4 = L.circle([32.817323, -96.798273], {
@@ -161,6 +171,7 @@ var geojson = L.geoJson(statesData).addTo(mymap);
       fillOpacity: 0.5,
       radius: 30000
     }).addTo(mapmex);
+      circle4.bindPopup('Dallas has the fifth largest Mexican-American population in the country.')
 
 
     var circle5 = L.circle([31.761012, -106.152289], {
@@ -169,6 +180,7 @@ var geojson = L.geoJson(statesData).addTo(mymap);
       fillOpacity: 0.5,
       radius: 50000
     }).addTo(mapmex);
+    circle5.bindPopup('El Paso, Texas is the largest city bordering a Mexican state. Historically has had a large Mex-Am community.')
 
 
     var circle6 = L.circle([41.825633, -87.714927], {
@@ -177,7 +189,7 @@ var geojson = L.geoJson(statesData).addTo(mymap);
       fillOpacity: 0.5,
       radius: 50000
     }).addTo(mapmex);
-
+  circle6.bindPopup('Chicago has the 2nd largest population of Mexican Americans, after Los Angeles.')
 
     /// cubans
 
