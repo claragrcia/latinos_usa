@@ -31,15 +31,15 @@ var geojson = L.geoJson(statesData).addTo(mymap);
 
   // get color depending on population value
 	function getColor(p) {
-		return p > '14.000.000' ? '#070719' :
-        p > '5.000.000' ? '#013ADF' :
-				p > '2.000.000'  ? '#013ADF' :
-				p > '1.000.000'  ? '#084B8A' :
-				p > 500.000   ? '#0000FF' :
-				p > 250.000   ? '#2E9AFE' :
-				p > 100.000   ? '#2ECCFA' :
-				p > 50.000   ? '#642EFE' :
-							'#819FF7';
+		return p > '14.000.000' ? '#800026' :
+        p > '5.000.000' ? '#bd0026' :
+				p > '2.000.000'  ? '#e31a1c' :
+				p > '1.000.000'  ? '#fc4e2a' :
+				p > 500.000   ? '#fd8d3c' :
+				p > 250.000   ? '#feb24c' :
+				p > 100.000   ? '#fed976' :
+				p > 50.000   ? '#ffeda0' :
+							'#ffffcc';
 	}
 
 	function style(feature) {

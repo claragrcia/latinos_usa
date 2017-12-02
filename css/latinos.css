@@ -152,10 +152,11 @@ h2 {font-size: 175%;}
 }
 
 #text1 {padding: 2em;
+        border: solid;
         background-color: rgb(124, 18, 18);
         color: #fff;
       margin-top: 2em;
-    text-shadow: 1px 1px 2px #000000}
+    text-shadow: 1px 1px 2px #000000;}
 
 
 #pheno1 {max-width: 900px;
@@ -185,7 +186,7 @@ h2 {font-size: 175%;}
             margin-bottom: 3%;}
 
 .headings1 {padding-top: 2%;
-            background-color: #004d26;
+            background-color: rgb(0, 77, 38);
             color: #fff;
             width: 100%;
             border: 2%;
@@ -207,3 +208,26 @@ h2 {font-size: 175%;}
             width: 100%;
             border: 2%;
             padding: 2%;}
+
+.general1 {height: 100vh;}
+
+.general2 {height: 100vh;}
+
+.general3 {height: 100vh;}
+
+
+#mexican {background-image: url('../images/diasinlatinos.jpg');
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  top: 0;
+  bottom: 0;
+  z-index: -10;}
+
+  #mex-gen {padding: 2%;
+          margin-left: 3%;
+          background-color: rgba(0, 77, 38, 0.5);
+          max-width: 500px;
+          color: #fff;
+          margin-top: 2em;
+          text-shadow: 1px 2px 2px #000000;}
