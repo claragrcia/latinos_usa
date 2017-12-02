@@ -147,13 +147,14 @@ h2 {font-size: 175%;}
               padding: 2%;}
 
 
-#map1 { height: 400px;
+#map1 { height: 500px;
         width: 100%;
 }
 
-.maps { height: 400px;
-        width: 100%;
-}
+#locmex, #locpr, #loccuban  {height: 400px;
+        width: 100%;}
+
+
 
 #text1 {padding: 2em;
         border: solid;
@@ -163,9 +164,21 @@ h2 {font-size: 175%;}
     text-shadow: 1px 1px 2px #000000;}
 
 
-#pheno1 {max-width: 900px;
+.pheno {max-width: 900px;
         padding: 1em 2em;
         margin: auto;}
+
+
+#mloc-text {padding: 2em;
+        border: solid;
+        background-color: rgb(0, 77, 38);
+        color: #fff;
+      margin-top: 2em;
+    text-shadow: 1px 1px 2px #000000;}
+
+
+ul li { padding: 5px 0px; }
+
 
 
 #timemex {width: 100%;
@@ -236,9 +249,9 @@ h2 {font-size: 175%;}
           margin-top: 2em;
           text-shadow: 1px 2px 2px #000000;}
 
-#pheno2 {max-width: 900px;
-        padding: 1em 2em;
-        margin: auto;}
+.mapwrap {  max-width: 900px;
+            padding: 1em 2em;
+            margin: auto;}
 
 #ricans {background-image: url('../images/puertorico.jpg');
   background-size: cover;
