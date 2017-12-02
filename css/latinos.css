@@ -65,7 +65,7 @@ h2 {font-size: 175%;}
   border-top: none;
   border-color: #000;
   padding-bottom: 2%;}
-    
+
 
 
 .mex-timeline {margin: 2%;}
@@ -159,21 +159,35 @@ h2 {font-size: 175%;}
         border: solid;
         background-color: rgb(124, 18, 18);
         color: #fff;
-      margin-top: 2em;
-    text-shadow: 1px 1px 2px #000000;}
+        margin-top: 2em;
+        text-shadow: 1px 1px 2px #000000;}
 
 
 .pheno {max-width: 900px;
         padding: 1em 2em;
         margin: auto;}
 
+#mexmap {border: solid;
+        border-color: rgb(0, 77, 38);
+        border-width: medium;}
+
+#prmap {border: solid;
+          border-color: rgb(204, 0, 0);
+          border-width: medium;}
+
+#cubanmap {border: solid;
+          border-width: medium;
+          border-color: (0, 0, 153);}
+
+
+
 
 #mloc-text {padding: 2em;
         border: solid;
         background-color: rgb(0, 77, 38);
         color: #fff;
-      margin-top: 2em;
-    text-shadow: 1px 1px 2px #000000;}
+        margin-top: 2em;
+        text-shadow: 1px 1px 2px #000000;}
 
 
 ul li { padding: 5px 0px; }
@@ -221,7 +235,7 @@ ul li { padding: 5px 0px; }
         }
 
 .headings3 {padding-top: 2%;
-            background-color: rgba(0, 0, 153, 0.8);
+            background-color: rgb(0, 0, 153);
             color: #fff;
             width: 100%;
             padding: 2%;}
@@ -235,7 +249,7 @@ ul li { padding: 5px 0px; }
 .tline {height: 120vh;}
 
 
-.locations {height: 130vh;}
+.locations {height: 135vh;}
 
 #mexican {background-image: url('../images/diasinlatinos.jpg');
   background-size: cover;
@@ -261,7 +275,7 @@ ul li { padding: 5px 0px; }
           bottom: 0;
           z-index: -10;}
 
- #miss-text {padding: 2%;
+ #miss-text {padding: 1.5%;
          margin-left: 5%;
          background-color: rgba(0, 77, 38, 0.5);
          max-width: 600px;
@@ -270,11 +284,11 @@ ul li { padding: 5px 0px; }
          text-shadow: 1px 2px 2px #000000;
         float: left;}
 
-#miss-text2 {padding: 2%;
-        margin-bottom: 4%;
+#miss-text2 {padding: 1.5%;
+        margin-bottom: 5%;
         margin-right: 5%;
         background-color: rgba(0, 77, 38, 0.5);
-        max-width: 600px;
+        max-width: 650px;
         color: #fff;
         margin-top: 2em;
         text-shadow: 1px 2px 2px #000000;
@@ -320,8 +334,84 @@ ul li { padding: 5px 0px; }
 
 
   #cuban-gen {padding: 2%;
-          margin-left: 3%;
+          margin-right: 3%;
           background-color: rgba(0, 0, 153, 0.5);
+          max-width: 500px;
+          color: #fff;
+          margin-top: 2em;
+          text-shadow: 1px 2px 2px #000000;
+          float: right;}
+
+
+#cuban-vot {background-image: url('../images/cubanstrump.jpg');
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  top: 0;
+  bottom: 0;
+  z-index: -7;}
+
+ #cvot-text {padding: 2%;
+         margin-left: 3%;
+         background-color: rgba(0, 0, 153, 0.5);
+         max-width: 500px;
+         color: #fff;
+         margin-top: 2em;
+          margin-right: 5%;
+         text-shadow: 1px 2px 2px #000000;float: right;
+      }
+
+
+#cuban-im {background-image: url('../images/cubaimmigrants.jpg');
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  top: 0;
+  bottom: 0;
+  z-index: -10;}
+
+
+#cloc-text {padding: 2em;
+        background-color: rgb(0, 0, 153);
+        color: #fff;
+        margin-top: 2em;
+        text-shadow: 1px 1px 2px #000000;}
+
+#cubaniss {
+          padding: 1.5%;
+          margin-left: 3%;
+          margin-top: 0;
+          background-color: rgba(0, 0, 153, 0.5);
+          max-width: 500px;
+          color: #fff;
+          margin-top: 2em;
+          text-shadow: 1px 2px 2px #000000;}
+
+
+#cubaniss2 {padding: 1.5%;
+  margin-right: 3%;
+  background-color: rgba(0, 0, 153, 0.5);
+  max-width: 600px;
+  color: #fff;
+  margin-top: 2em;
+  text-shadow: 1px 2px 2px #000000;
+  float: right;
+  clear: both;
+  margin-right: 5%;
+            }
+
+
+#mex-vot {background-image: url('../images/latinoshillary.jpg');
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  top: 0;
+  bottom: 0;
+  z-index: -10;}
+
+  #mexv {padding: 2%;
+          margin-left: 3%;
+          background-color: rgba(0, 77, 38, 0.5);
           max-width: 500px;
           color: #fff;
           margin-top: 2em;
