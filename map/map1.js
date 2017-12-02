@@ -206,6 +206,7 @@ var geojson = L.geoJson(statesData).addTo(mymap);
       fillOpacity: 0.5,
       radius: 100000
     }).addTo(mapcub);
+    circle7.bindPopup('Almost 70% of all Cuban-Americans live in South Florida. Westchester, Hialeah, and West Miami are the areas with the largest concentration.')
 
 
     /// puerto Ricans
@@ -223,6 +224,7 @@ var geojson = L.geoJson(statesData).addTo(mymap);
       fillOpacity: 0.5,
       radius: 50000
     }).addTo(mappr);
+      circle8.bindPopup('New York City was for decades the preferred destination for those fleeing the island. Nowadays, over 700,000 Puerto Ricans live in the city.')
 
 
     var circle9 = L.circle([40.000462, -75.124803], {
@@ -231,6 +233,7 @@ var geojson = L.geoJson(statesData).addTo(mymap);
       fillOpacity: 0.5,
       radius: 50000
     }).addTo(mappr);
+    circle9.bindPopup("Philadelphia has the second largest Puerto Rican community in the mainland. They represent 75% of the city's Latino population")
 
 
 // orlando
@@ -241,14 +244,4 @@ var geojson = L.geoJson(statesData).addTo(mymap);
       fillOpacity: 0.5,
       radius: 50000
     }).addTo(mappr);
-
-// chicago
-
-    var circle11 = L.circle([41.825633, -87.714927], {
-      color: 'red',
-      fillColor: '#f03',
-      fillOpacity: 0.5,
-      radius: 50000
-    }).addTo(mappr);
-
-// philadelphia
+      circle10.bindPopup("Increasingly, Orlando has seen an influx of Puerto Ricans, and is becoming the home to one of the largest boricua communities in the US.")
