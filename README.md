@@ -12,4 +12,6 @@ In terms of content, I wrote most of it this week, setting up each category. The
 Week 2
 
 
-I finished all my maps, charts and did the timelines. I also started the CSS as I realized I may not need as much Javascript as I thought I did. I've been having trouble making some of the sections slide up..
+I finished all my maps, charts and did the timelines, which took me a bit of a long time. I also started the CSS as I realized I may not need as much Javascript as I thought I did, and it helps me visualize the Java.
+
+ I've been having trouble making some of the sections slide up/make some of the buttons work. I was not able to make the page as interactive as I would have liked, but I think it's coming together well. 

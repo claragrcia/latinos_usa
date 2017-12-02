@@ -151,6 +151,10 @@ h2 {font-size: 175%;}
         width: 100%;
 }
 
+.maps { height: 400px;
+        width: 100%;
+}
+
 #text1 {padding: 2em;
         border: solid;
         background-color: rgb(124, 18, 18);
@@ -227,6 +231,47 @@ h2 {font-size: 175%;}
   #mex-gen {padding: 2%;
           margin-left: 3%;
           background-color: rgba(0, 77, 38, 0.5);
+          max-width: 500px;
+          color: #fff;
+          margin-top: 2em;
+          text-shadow: 1px 2px 2px #000000;}
+
+#pheno2 {max-width: 900px;
+        padding: 1em 2em;
+        margin: auto;}
+
+#ricans {background-image: url('../images/puertorico.jpg');
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  top: 0;
+  bottom: 0;
+  z-index: -10;}
+
+  #pr-gen {padding: 2%;
+          margin-right: 3%;
+          background-color: rgba(204, 0, 0, 0.5);
+          max-width: 500px;
+          color: #fff;
+          margin-top: 2em;
+          text-shadow: 1px 2px 2px #000000;
+        float: right;}
+
+
+
+#cuban {background-image: url('../images/cubanmusic.jpg');
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  top: 0;
+  bottom: 0;
+  z-index: -10;}
+
+
+
+  #cuban-gen {padding: 2%;
+          margin-left: 3%;
+          background-color: rgba(0, 0, 153, 0.5);
           max-width: 500px;
           color: #fff;
           margin-top: 2em;
