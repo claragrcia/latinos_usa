@@ -122,7 +122,7 @@ h2 {font-size: 175%;}
 
 .arrow1 {
   margin-left: 48%;
-  margin-top: 15%;
+  margin-top: 10%;
   height: 5vw;
   width: 5vw;
   border-style: solid;
@@ -214,7 +214,7 @@ ul li { padding: 5px 0px; }
             border-color: #000;
             border-width: 1px;
             margin-bottom: 3%;
-            z-index: 1;}
+            }
 
 #btn2 {float: right;
       margin-right: 2%;}
@@ -440,3 +440,9 @@ ul li { padding: 5px 0px; }
           color: #fff;
           margin-top: 2em;
           text-shadow: 1px 2px 2px #000000;}
+
+
+#about {}
+
+footer {color: #fff;
+        background-color: #000;}
