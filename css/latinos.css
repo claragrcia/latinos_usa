@@ -9,6 +9,9 @@ body {margin: 0px;
     font-size: 100%;
 }
 
+
+#learnmore {z-index: 5; !important}
+
 #top {margin: 0;}
 
 .begin { background-image: url('../images/hispanicflags2.jpg');
@@ -18,7 +21,7 @@ body {margin: 0px;
   top: 0;
   bottom: 0;
   height: 100vh;
-  z-index: -10;
+  z-index: 1;
 }
 
 .intro-over {
@@ -27,7 +30,7 @@ body {margin: 0px;
     bottom: 0;
     height: 100%;
     width: 100%;
-    z-index: -5;
+    z-index: 1;
     background-color: rgba(0,0,0, 0.3);
 }
 .names {
@@ -98,15 +101,15 @@ h2 {font-size: 175%;}
         top: 0;
         bottom: 0;
         height: 100vh;
-        z-index: -10;}
+        z-index: 1;}
 
-.over2 {
+.overlay {
         top: 0;
         bottom: 0;
         height: 100%;
         width: 100%;
-        z-index: -5;
-        background-color: rgba(0,0,0, 0.5)}
+        z-index: 1;
+        background-color: rgba(0,0,0, 0.5);}
 
 .beginning2 {font-size: 175%;
             color: #fff;
@@ -217,7 +220,8 @@ ul li { padding: 5px 0px; }
             }
 
 #btn2 {float: right;
-      margin-right: 2%;}
+      margin-right: 2%;
+      z-index: 1;}
 
 
 .nextbut {float: right;
@@ -267,7 +271,7 @@ ul li { padding: 5px 0px; }
   position:relative;
   top: 0;
   bottom: 0;
-  z-index: -10;}
+  z-index: 1;}
 
   #mex-gen {padding: 2%;
           margin-left: 3%;
@@ -283,27 +287,31 @@ ul li { padding: 5px 0px; }
           position:relative;
           top: 0;
           bottom: 0;
-          z-index: -10;}
+          z-index: 1;}
 
  #miss-text {padding: 1%;
          margin-left: 5%;
          background-color: rgba(0, 77, 38, 0.5);
-         max-width: 600px;
+         max-width: 500px;
          color: #fff;
          margin-top: 2em;
          text-shadow: 1px 2px 2px #000000;
-        float: left;}
+         float: left;}
 
 #miss-text2 {padding: 1%;
         margin-bottom: 5%;
         margin-right: 5%;
         background-color: rgba(0, 77, 38, 0.5);
-        max-width: 650px;
+        max-width: 500px;
         color: #fff;
         margin-top: 2em;
         text-shadow: 1px 2px 2px #000000;
-        float: right;
-        clear: both;}
+        float: right;}
+
+
+#mvot-next {clear: both;
+          float: right;
+          margin: 2em;}
 
 .mapwrap {  max-width: 900px;
             padding: 1em 2em;
@@ -315,25 +323,67 @@ ul li { padding: 5px 0px; }
   position:relative;
   top: 0;
   bottom: 0;
-  z-index: -10;}
+  z-index: 1;}
 
   #pr-gen {padding: 2%;
-          margin-right: 3%;
+          margin-left: 3%;
           background-color: rgba(204, 0, 0, 0.5);
-          max-width: 500px;
+          max-width: 600px;
           color: #fff;
           margin-top: 2em;
           text-shadow: 1px 2px 2px #000000;
-        float: right;}
+          float: left;}
+
+#prtimediv {clear: both;
+              float: right;
+              margin: 1em;
+              padding-right:1%;}
+
+#pr-vot {background-image: url('../images/prvoting.jpg');
+        background-size: cover;
+        background-position: center;
+        position:relative;
+        top: 0;
+        bottom: 0;
+        z-index: 1;}
+
+
+#pr-im {background-image: url('../images/hispanicwoman.jpg');
+        background-size: cover;
+        background-position: center;
+        position:relative;
+        top: 0;
+        bottom: 0;
+        z-index: 1;}
 
 #priss {padding: 2%;
         margin-left: 3%;
-        background-color: rgb(204, 0, 0);
+        background-color: rgba(204, 0, 0, 0.5);
         max-width: 750px;
         color: #fff;
         margin-top: 2em;
         text-shadow: 1px 2px 2px #000000;
         float: left;}
+
+        .expand {
+          color: #379CB2;
+        }
+
+        .expand:hover {
+          color: #82E8FF;
+        }
+
+
+#votpr {padding: 2%;
+        margin-left: 3%;
+        background-color: rgba(204, 0, 0, 0.5);
+        max-width: 750px;
+        color: #fff;
+        margin-top: 2em;
+        text-shadow: 1px 2px 2px #000000;
+        float: left;}
+
+
 
 #hurmaria {float: right;
           clear: both;
@@ -354,7 +404,7 @@ ul li { padding: 5px 0px; }
   position:relative;
   top: 0;
   bottom: 0;
-  z-index: -7;}
+  z-index: 1;}
 
 
 
@@ -374,7 +424,7 @@ ul li { padding: 5px 0px; }
   position:relative;
   top: 0;
   bottom: 0;
-  z-index: -7;}
+  z-index: 1;}
 
  #cvot-text {padding: 2%;
          margin-left: 3%;
@@ -393,7 +443,7 @@ ul li { padding: 5px 0px; }
   position:relative;
   top: 0;
   bottom: 0;
-  z-index: -10;}
+  z-index: 1;}
 
 
 #cloc-text {padding: 2em;
@@ -431,7 +481,7 @@ ul li { padding: 5px 0px; }
   position:relative;
   top: 0;
   bottom: 0;
-  z-index: -10;}
+  z-index: 1;}
 
   #mexv {padding: 2%;
           margin-left: 3%;

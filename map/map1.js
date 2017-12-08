@@ -98,29 +98,29 @@ var geojson = L.geoJson(statesData).addTo(mymap);
 
 
 
-  	var legend = L.control({position: 'bottomright'});
+//  	var legend = L.control({position: 'bottomright'});
 
-  	legend.onAdd = function (mymap) {
+  //	legend.onAdd = function (mymap) {
 
-  		var div = L.DomUtil.create('div', 'info legend'),
-  			grades = [0, 50.000, 100.000, 250.000, 500.000, '1.000.000', '2.000.000'],
-  			labels = [],
-  			from, to;
+  //		var div = L.DomUtil.create('div', 'info legend'),
+  //			grades = [0, 50.000, 100.000, 250.000, 500.000, '1.000.000', //'2.000.000'],
+  	//		labels = [],
+  	//		from, to;
 
-  		for (var i = 0; i < grades.length; i++) {
-  			from = grades[i];
-  			to = grades[i + 1];
+  	//	for (var i = 0; i < grades.length; i++) {
+  	//		from = grades[i];
+  	//		to = grades[i + 1];
 
-  			labels.push(
-  				'<i style="background:' + getColor(from + 1) + '"></i> ' +
-  				from + (to ? '&ndash;' + to : '+'));
-  		}
+  		//	labels.push(
+  		//		'<i style="background:' + getColor(from + 1) + '"></i> ' +
+  	//			from + (to ? '&ndash;' + to : '+'));
+  	//	}
 
-  		div.innerHTML = labels.join('<br>');
-  		return div;
-  	};
+  		//div.innerHTML = labels.join('<br>');
+  		//return div;
+  //	};
 
-  	legend.addTo(mymap);
+//  	legend.addTo(mymap);
 
 
 

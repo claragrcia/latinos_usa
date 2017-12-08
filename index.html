@@ -18,6 +18,7 @@
 
 
 <body>
+
 <div class="latinDiv" id="top">
 
 
@@ -55,16 +56,16 @@
 
 <div class="intro2">
 
-  <div class="over2">
-
   <p class="beginning2"> But Latinos are a diverse community, with people coming from a variety of countries, resulting in a range of characteristics, interests, and struggles. </p>
 
-<div id="button1">
-  <button type="button" class="btn btn-default" id="learnmore">Learn More</button>
-</div>
+      <div id="button1">
+      <button class="btn btn-default" id="learnmore">Learn More</button>
+      </div>
         </div>
     </div>
-</div>
+
+
+
 
 
 <section class="general" id="begin2">
@@ -104,7 +105,6 @@
 
   <section class="general1" id= "mexican">
 
-      <div class="over2">
 
   <h1 class= "headings1">Mexican-Americans and Mexican Immigrants</h1>
 
@@ -120,7 +120,6 @@
           <div class="nextbut">
             <button type="button" class="btn btn-default" id="mexlinebut">Next</button>
           </div>
-        </div>
 </section>
 
 <!-- Timeline-->
@@ -131,7 +130,7 @@
 <iframe id="timemex" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1KiqNAe-aYyF8Fa8OvLIellWiugnZl3GenF8EZK06olw&font=Default&lang=en&initial_zoom=2&height=650'></iframe>
 
     <div class="nextbut">
-<button type="button" class="btn btn-default">Next</button>
+<button type="button" class="btn btn-default" id="mloc-next">Next</button>
 </div>
 </section>
 
@@ -151,20 +150,21 @@
           </div>
             </div>
             <div class="nextbut">
-            <button type="button" class="btn btn-default">Next</button>
+            <button type="button" class="btn btn-default" id="mim-next">Next</button>
         </div>
 </section>
   <!-- Issues -->
 
   <section class="general1" id="mex-im">
 
-    <div class="over2">
 
       <h1 class= "headings1">Mexican-Americans and Mexican Immigrants</h1>
 
 <div id="miss-text">
     <p>In spite of the current political narrative used by some politicians, <strong>fewer Mexicans are migrating to the U.S.</strong> today than in the past. In fact, more Mexicans left than came to the U.S since the end of the Great Recession. </p>
     <p>According to the Pew Research Center, between 2009 and 2014, 870,000 Mexican nationals left Mexico to come to the U.S., down from the 2.9 million who left Mexico for the U.S. between 1995 and 2000.</p>
+
+    <h3 class="expand" id="mexwhy"> Why? </h3>
   </div>
 
   <div id="miss-text2">
@@ -173,10 +173,9 @@
 </div>
 
 <div class="nextbut1">
-  <button type="button" class="btn btn-default">Next</button>
+  <button type="button" class="btn btn-default" id="mvot-next">Next</button>
   </div>
 
-  </div>
 
 </section>
 
@@ -184,7 +183,6 @@
 
   <section class="general1" id="mex-vot">
 
-<div class="over2">
 
 <h1 class= "headings1">Mexican-Americans and Mexican Immigrants</h1>
 
@@ -194,11 +192,13 @@
 </div>
 
 <div class="btn-group" id="btn2">
-  <button type="button" class="btn btn-default">Go to the start</button>
-  <button type="button" class="btn btn-default">Learn about other groups</button>
-</div>
+
+  <button type="button" class="btn btn-default" id="start">Go to the start</button>
+  <button type="button" class="btn btn-default" id="learnothers">Learn about other groups</button>
 
 </div>
+
+
 
 
   </section>
@@ -206,7 +206,7 @@
 
 
   <section class="general2" id= "ricans">
-    <div class="over2">
+
   <h1 class= "headings2">Puerto Ricans </h1>
 
   <div class="prbox" id="pr-gen">
@@ -218,10 +218,13 @@
   <li>Puerto Ricans born and living on the mainland have a higher level of education and income than those still living in the island. </li>
   </ul>
   </div>
-  <div class="nextbut">
-  <button type="button" class="btn btn-default">Next</button>
+
+  <div class="nextbut" id="prtimediv">
+  <button type="button" class="btn btn-default" id="prtime-next">Next</button>
 </div>
-</div>
+
+
+
 </section>
 
   <!-- timeline-->
@@ -232,7 +235,7 @@
 <iframe id="timepr" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1yO5Ks5FduW5VXHXD17NmjWSRsSmz_31_qCa28ewJ4pQ&font=Default&lang=en&initial_zoom=2&height=650'></iframe>
 
 <div class="nextbut">
-<button type="button" class="btn btn-default">Next</button>
+<button type="button" class="btn btn-default" id="prloc-next">Next</button>
 </div>
 </section>
 
@@ -254,26 +257,34 @@
 </div>
 
 <div class="nextbut">
-<button type="button" class="btn btn-default">Next</button>
+<button type="button" class="btn btn-default" id="prim-next">Next</button>
 </div>
 </section>
 
   <section class="general2" id="pr-im">
+
+
       <h1 class= "headings2">Puerto Ricans </h1>
-
-
 
 <div id="priss">
 
     <p> <strong>The Commonwealth of Puerto Rico</strong> has been a United States territoriy since 1898, and Puerto Ricans have been American citizens since the Jones-Shafroth Act of 1917.</p>
     <p>However, they possess their own local government and constitution. For that reason, they are technically not considered immigrants, as they are often entitled to the benefits and security that is reserved for native-born americans.  Nevertheless, many of them experience some of the struggles characteristic of other latino communities. </p>
 
-    <p> Puerto Rico has been facing a grave economic crisis for years now. This has been attributed to various factors, such government’s overspending, and some laws passed by the US Congress in the last few years. US Census data shows that roughly 46 percent of Puerto Ricans currently live under the poverty line. </p>
+    <h3 class="expand" id="expandpr">What about now?</h3>
 
+    <p><span id="extra"> Puerto Rico has been facing a grave economic crisis for years now. This has been attributed to various factors, such government’s overspending, and some laws passed by the US Congress in the last few years. US Census data shows that roughly 46 percent of Puerto Ricans currently live under the poverty line.
 
-        <p>In the wake of Hurricane Maria in September 2017, which left a large part of the caribbean island destroyed and without power and water for months, hundreds of thousands Puerto Ricans have migrated to the U.S mainland- a movement larger than any other in the history of Puerto Rico. Officials estimate that over 300,000 Puerto Ricans will migrate to  </p>
+      In the wake of Hurricane Maria in September 2017,hundreds of thousands Puerto Ricans have migrated to the U.S mainland- a movement larger than any other in the history of Puerto Rico. Officials estimate that over 300,000 Puerto Ricans arrived in the last months of 2017. </span> </p>
 
           </div>
+
+
+
+  <div class="nextbut">
+      <button type="button" class="btn btn-default" id="prvot-next">Next</button>
+          </div>
+
 
 <!--           <div id="hurmaria">
 
@@ -298,10 +309,18 @@
   <p>With more people moving from the island to continental United States -most specifically Florida- due to the island's economic crisis and Hurricane Maria, they could become key voters in swing states. Just in Central Florida, over 350,000 Puerto Ricans have settled in the last few years, becoming a political force as determinant as Cubans in Miami. </p>
   </div>
 
+
+  <div class="btn-group">
+
+    <button type="button" class="btn btn-default">Go to the start</button>
+    <button type="button" class="btn btn-default">Learn about other groups</button>
+
+  </div>
+
   </section>
 
   <section class="general3" id= "cuban">
-          <div class="over2">
+
 
   <h1 class= "headings3">Cuban-Americans and Cuban Immigrants</h1>
 
@@ -316,7 +335,12 @@
   <li> Almost half of immigrants from Cuba (47%) have been in the U.S. for over 20 years. About 59% of Cuban immigrants are U.S. citizens. </li>
   </ul>
   </div>
-</div>
+
+
+  <div class="nextbut">
+  <button type="button" class="btn btn-default" id="cubtime-next">Next</button>
+  </div>
+
 </section>
 
 
@@ -324,6 +348,11 @@
 
 
 <iframe id="timecub" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1bUPdZzWhAtZds-U3VRgMEdfQftv1GuY6YdZ7hEQ83ME&font=Default&lang=en&initial_zoom=2&height=650'></iframe>
+
+
+<div class="nextbut">
+<button type="button" class="btn btn-default" id="cubloc-next">Next</button>
+</div>
 
 </section>
 
@@ -344,12 +373,16 @@
 
   </div>
 </div>
+
+<div class="nextbut">
+<button type="button" class="btn btn-default" id="cubim-next">Next</button>
+</div>
+
 </section>
 
 
 <section class="general3" id="cuban-im">
 
-<div class="over2">
 
   <h1 class= "headings3">Cuban-Americans and Cuban Immigrants</h1>
 
@@ -363,13 +396,17 @@
   <p>This generated consequences for both the caribbean island and the United States. In January 2017, President Obama announced the end of the <em>dry-foot, wet-foot policy</em>, making Cubans "normal" immigrants again. </p>
 
     </div>
+
+  <div class="nextbut">
+  <button type="button" class="btn btn-default" id="cubvot-next">Next</button>
   </div>
+
 </section>
 
 
 
   <section class="general3" id="cuban-vot">
-    <div class="over2">
+
       <h1 class= "headings3">Cuban-Americans and Cuban Immigrants</h1>
 
 
@@ -379,8 +416,15 @@
   <p>According to National Election Pool exit poll data.More than half (54%) supported the Republican candidate Donald Trump in the 2016 elections, compared with about a quarter (26%) of non-Cuban Latinos. </p>
 
 </div>
-  </div>
 
+
+
+  <div class="btn-group">
+
+    <button type="button" class="btn btn-default">Go to the start</button>
+    <button type="button" class="btn btn-default">>Learn about other groups</button>
+
+  </div>
   </section>
 
 
@@ -410,8 +454,11 @@
 
   <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
   <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="map/us-states2.js"></script>
    <script src="map/map1.js"></script>
-   <script src="js/latinos.js"></script>
+
+ <script src="js/latinos.js"></script>
+
   </body>
 </html>
