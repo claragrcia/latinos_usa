@@ -13,53 +13,69 @@ $('#about').hide();
 
 /* user clicks learn more and growing general appears */
 
-/* MEXICO */
+
 
 $('#learnmore').click(function() {
-   $('#begin2').slideToggle(500);
+   $('#begin2').slideToggle(700);
    $('.latinDiv').hide();
    $('footer').hide();
  });
 
 
+ $('#aboutsite').click(function() {
+    $('#about').slideToggle(700);
+    $('.latinDiv').hide();
+    $('footer').hide();
+  });
+
+
+  $('#aboutstart').click(function() {
+     $('.latinDiv').slideToggle(700);
+     $('#about').hide();
+   });
+
+
+
+  /* MEXICO */
+
 $('#mexbut').click(function() {
-   $('#mexican').slideToggle(500);
+   $('#mexican').slideToggle(700);
    $('#begin2').hide();
  });
 
 
 
  $('#mexlinebut').click(function() {
-   $('#mex-timeline').slideToggle(500);
+   $('#mex-timeline').slideToggle(700);
     $('#mexican').hide();
   });
 
 
   $('#mloc-next').click(function() {
-    $('#mex-loc').slideToggle(500);
+    $('#mex-loc').slideToggle(700);
      $('#mex-timeline').hide();
    });
 
    $('#mim-next').click(function() {
-     $('#mex-im').slideToggle(500);
+     $('#mex-im').slideToggle(700);
       $('#mex-loc').hide();
     });
 
 
        $('#mvot-next').click(function() {
-         $('#mex-vot').slideToggle(500);
+         $('#mex-vot').slideToggle(700);
           $('#mex-im').hide();
         });
 
 
   $('#start').click(function() {
-  $('.latinDiv').slideToggle(500);
+  $('.latinDiv').slideToggle(700);
   $('#mex-vot').hide();
          });
 
 
            $('#learnothers').click(function() {
-           $('#begin2').slideToggle(500);
+           $('#begin2').slideToggle(700);
            $('#mex-vot').hide();
                   });
 
@@ -72,29 +88,29 @@ $('#mexbut').click(function() {
 /* PUERTO RICO */
 
 $('#prbut').click(function() {
-   $('#ricans').slideToggle(500);
+   $('#ricans').slideToggle(700);
    $('#begin2').hide();
  });
 
  $('#prtime-next').click(function() {
-    $('#pr-timeline').slideToggle(500);
+    $('#pr-timeline').slideToggle(700);
     $('#ricans').hide();
   });
 
 
   $('#prloc-next').click(function() {
-     $('#pr-loc').slideToggle(500);
+     $('#pr-loc').slideToggle(700);
      $('#pr-timeline').hide();
    });
 
    $('#prim-next').click(function() {
-      $('#pr-im').slideToggle(500);
+      $('#pr-im').slideToggle(700);
       $('#pr-loc').hide();
     });
 
 
     $('#prvot-next').click(function() {
-       $('#pr-vot').slideToggle(500);
+       $('#pr-vot').slideToggle(700);
        $('#pr-im').hide();
      });
 
@@ -119,12 +135,6 @@ $('#cubbut').click(function() {
   });
 
 
-  $('#cubtime-next').click(function() {
-     $('#cuban-timeline').slideToggle(500);
-     $('#cuban').hide();
-   });
-
-
    $('#cubloc-next').click(function() {
       $('#cuban-loc').slideToggle(500);
       $('#cuban-timeline').hide();
@@ -142,6 +152,7 @@ $('#cubbut').click(function() {
             $('#cuban-vot').slideToggle(500);
             $('#cuban-im').hide();
           });
+
 
 
 }); /* DO NOT DELETE */

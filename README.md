@@ -14,4 +14,9 @@ Week 2
 
 I finished all my maps, charts and mostly focused on finishing the timelines, which took me a while. This week, I decided to start working on the CSS even though I had originally planned to do that next week. I realized I may not need as much Javascript as I thought I did, and it helps me visualize just in what ways I need to slide the sections.
 
- I've been having trouble making some of the buttons work and with their positions in the slides. They are all over the place, so I'm working on fixing that.  I was not able to make the page as interactive as I would have liked this week, but I think it's coming together well. I think I may change the red color of the Puerto Ricans section as it is too bright. 
+ I've been having trouble making some of the buttons work and with their positions in the slides. They are all over the place, so I'm working on fixing that.  I was not able to make the page as interactive as I would have liked this week, but I think it's coming together well. I think I may change the red color of the Puerto Ricans section as it is too bright.
+
+
+ Week 3: I struggled a lot, and I mean, a lot with these buttons. After a few days, I was able to figure out what was wrong and made them work. This week, I mostly worked on fixing those issues, the locations of the buttons, and making sure they worked. I also finised the "about this page" and reworded a few of the slides.
+
+ I still need to work on my media query.

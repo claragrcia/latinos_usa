@@ -24,15 +24,7 @@ body {margin: 0px;
   z-index: 1;
 }
 
-.intro-over {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    background-color: rgba(0,0,0, 0.3);
-}
+
 .names {
       margin-left: 20%;
       margin-right: 20%;
@@ -103,13 +95,6 @@ h2 {font-size: 175%;}
         height: 100vh;
         z-index: 1;}
 
-.overlay {
-        top: 0;
-        bottom: 0;
-        height: 100%;
-        width: 100%;
-        z-index: 1;
-        background-color: rgba(0,0,0, 0.5);}
 
 .beginning2 {font-size: 175%;
             color: #fff;
@@ -125,7 +110,7 @@ h2 {font-size: 175%;}
 
 .arrow1 {
   margin-left: 48%;
-  margin-top: 10%;
+  margin-top: 5%;
   height: 5vw;
   width: 5vw;
   border-style: solid;
@@ -142,6 +127,7 @@ h2 {font-size: 175%;}
 #begin2 {
   margin: auto;
   background-color: #FFF;
+  height: 100vh;
     }
 
 .headline1 {background-color: rgb(124, 18, 18);
@@ -149,21 +135,34 @@ h2 {font-size: 175%;}
               padding: 2%;}
 
 
-#map1 { height: 500px;
-        width: 100%;
-}
-
 #locmex, #locpr, #loccuban  {height: 400px;
         width: 100%;}
 
 
+#map1 { height: 400px;
+        width: 100%;
+        float: left;}
 
-#text1 {padding: 2em;
+  #text1 {padding: 1%;;
         border: solid;
         background-color: rgb(124, 18, 18);
         color: #fff;
-        margin-top: 2em;
-        text-shadow: 1px 1px 2px #000000;}
+        text-shadow: 1px 1px 2px #000000;
+        float: left;
+        max-width: 600px;
+        margin-left: 2%;}
+
+#learngroups {padding-left: 3%;}
+
+
+#buttons {max-width: 100%;
+          padding-top: 1em;
+          clear:both;}
+
+.pheno1 {max-width: 550px;
+        padding: 1em 2em;
+        margin-left: 2%;}
+
 
 
 .pheno {max-width: 900px;
@@ -171,16 +170,19 @@ h2 {font-size: 175%;}
         margin: auto;}
 
 #mexmap {border: solid;
+        border-width: thick;
         border-color: rgb(0, 77, 38);
         border-width: medium;}
 
 #prmap {border: solid;
-          border-color: rgb(204, 0, 0);
+        border-width: thick;
+          border-color: rgb(152,0,0);
           border-width: medium;}
 
 #cubanmap {border: solid;
+          border-width: thick;
           border-width: medium;
-          border-color: (0, 0, 153);}
+          border-color: rgb(0, 0, 153);}
 
 
 
@@ -198,17 +200,17 @@ ul li { padding: 5px 0px; }
 
 
 #timemex {width: 100%;
-          height: 100vh;
+          height: 90vh;
           border: 0;
           }
 
 #timepr {width: 100%;
-          height: 100vh;
+          height: 90vh;
           border: 0;
           }
 
 #timecub {width: 100%;
-          height: 100vh;
+          height: 90vh;
           border: 0;}
 
 
@@ -224,8 +226,11 @@ ul li { padding: 5px 0px; }
       z-index: 1;}
 
 
-.nextbut {float: right;
-          padding-right: 3%;}
+.nextbut {clear: both;
+          float: right;
+          padding-right: 3%;
+          margin-bottom: 2em;
+        }
 
 .nextbut1 {z-index: 1;
         }
@@ -240,7 +245,7 @@ ul li { padding: 5px 0px; }
 
 
 .headings2 {padding-top: 2%;
-            background-color: rgb(204, 0, 0);
+            background-color: rgb(152,0,0);
             color: #fff;
             width: 100%;
             padding: 2%;
@@ -313,6 +318,7 @@ ul li { padding: 5px 0px; }
           float: right;
           margin: 2em;}
 
+
 .mapwrap {  max-width: 900px;
             padding: 1em 2em;
             margin: auto;}
@@ -348,7 +354,7 @@ ul li { padding: 5px 0px; }
         z-index: 1;}
 
 
-#pr-im {background-image: url('../images/hispanicwoman.jpg');
+#pr-im {background-image: url('../images/hurricanemaria.jpg');
         background-size: cover;
         background-position: center;
         position:relative;
@@ -356,10 +362,10 @@ ul li { padding: 5px 0px; }
         bottom: 0;
         z-index: 1;}
 
-#priss {padding: 2%;
+#priss {padding: 1%;
         margin-left: 3%;
         background-color: rgba(204, 0, 0, 0.5);
-        max-width: 750px;
+        max-width: 800px;
         color: #fff;
         margin-top: 2em;
         text-shadow: 1px 2px 2px #000000;
@@ -372,6 +378,13 @@ ul li { padding: 5px 0px; }
         .expand:hover {
           color: #82E8FF;
         }
+
+
+#prvot-next {margin-bottom: 2em;}
+
+.btn-default {clear: both;
+              float: right;
+              margin: 1em;}
 
 
 #votpr {padding: 2%;
@@ -388,12 +401,12 @@ ul li { padding: 5px 0px; }
 #hurmaria {float: right;
           clear: both;
           border: solid;
-          border-color: rgb(204, 0, 0);}
+          border-color: rgb(152,0,0);}
 
 
 #prlotext {padding: 1em;
         border: solid;
-        background-color: rgb(204, 0, 0);
+        background-color: rgb(152,0,0);
         color: #fff;
         margin-top: 2em;
         text-shadow: 1px 1px 2px #000000;}
@@ -492,7 +505,21 @@ ul li { padding: 5px 0px; }
           text-shadow: 1px 2px 2px #000000;}
 
 
-#about {}
+#site1 {padding: 2%;
+        margin-left: 3%;
+        font-size: 90%;
+        float: left;}
+
+#evenmore {font-size: 90%;
+          float: right;
+          padding: 2%;
+          margin-right: 3%;
+          }
+
+#abouttitle {padding-left: 3%;
+            background-color: #000;}
 
 footer {color: #fff;
         background-color: #000;}
+
+@media {}
