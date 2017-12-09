@@ -6,7 +6,7 @@ body {margin: 0px;
     background: #fff;
     color: #000;
     font-family: 'Open Sans', Verdana, sans-serif;
-    font-size: 100%;
+    font-size: 90%;
 }
 
 
@@ -319,6 +319,23 @@ ul li { padding: 5px 0px; }
           margin: 2em;}
 
 
+  #mex-vot {background-image: url('../images/latinoshillary.jpg');
+            background-size: cover;
+            background-position: center;
+            position:relative;
+            top: 0;
+            bottom: 0;
+            z-index: 1;}
+
+  #mexv {padding: 2%;
+        margin-left: 3%;
+        background-color: rgba(0, 77, 38, 0.5);
+        max-width: 500px;
+        color: #fff;
+        margin-top: 2em;
+        text-shadow: 1px 2px 2px #000000;}
+
+
 .mapwrap {  max-width: 900px;
             padding: 1em 2em;
             margin: auto;}
@@ -397,6 +414,11 @@ ul li { padding: 5px 0px; }
         float: left;}
 
 
+#buttons2 {
+          clear: both;
+          float: right;
+        margin: 1em;}
+
 
 #hurmaria {float: right;
           clear: both;
@@ -440,13 +462,13 @@ ul li { padding: 5px 0px; }
   z-index: 1;}
 
  #cvot-text {padding: 2%;
-         margin-left: 3%;
-         background-color: rgba(0, 0, 153, 0.5);
-         max-width: 500px;
-         color: #fff;
-         margin-top: 2em;
-          margin-right: 5%;
-         text-shadow: 1px 2px 2px #000000;float: right;
+            margin-left: 2%;
+            background-color: rgba(0, 0, 153, 0.5);
+            max-width: 500px;
+            color: #fff;
+            margin-top: 2em;
+            margin-right: 5%;
+            text-shadow: 1px 2px 2px #000000;float: right;
       }
 
 
@@ -456,7 +478,8 @@ ul li { padding: 5px 0px; }
   position:relative;
   top: 0;
   bottom: 0;
-  z-index: 1;}
+  z-index: 1;
+  height: 100vh;}
 
 
 #cloc-text {padding: 2em;
@@ -470,10 +493,11 @@ ul li { padding: 5px 0px; }
           margin-left: 3%;
           margin-top: 0;
           background-color: rgba(0, 0, 153, 0.5);
-          max-width: 500px;
+          max-width: 400px;
           color: #fff;
           margin-top: 2em;
-          text-shadow: 1px 2px 2px #000000;}
+          text-shadow: 1px 2px 2px #000000;
+          float: left;}
 
 
 #cubaniss2 {padding: 1.5%;
@@ -485,7 +509,13 @@ ul li { padding: 5px 0px; }
   text-shadow: 1px 2px 2px #000000;
   float: right;
   clear: both;
-  margin-right: 5%;}
+  margin-right: 5%;
+  clear: both;
+  float: right;}
+
+#buttons3 {clear: both;
+          float: right;
+          padding-right: 2em;}
 
 
 #mex-vot {background-image: url('../images/latinoshillary.jpg');

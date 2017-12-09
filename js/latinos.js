@@ -16,21 +16,21 @@ $('#about').hide();
 
 
 $('#learnmore').click(function() {
-   $('#begin2').slideToggle(700);
+   $('#begin2').slideToggle(300);
    $('.latinDiv').hide();
    $('footer').hide();
  });
 
 
  $('#aboutsite').click(function() {
-    $('#about').slideToggle(700);
+    $('#about').slideToggle(300);
     $('.latinDiv').hide();
     $('footer').hide();
   });
 
 
   $('#aboutstart').click(function() {
-     $('.latinDiv').slideToggle(700);
+     $('.latinDiv').slideToggle(300);
      $('#about').hide();
    });
 
@@ -39,44 +39,46 @@ $('#learnmore').click(function() {
   /* MEXICO */
 
 $('#mexbut').click(function() {
-   $('#mexican').slideToggle(700);
+   $('#mexican').slideToggle(300);
    $('#begin2').hide();
  });
 
 
 
  $('#mexlinebut').click(function() {
-   $('#mex-timeline').slideToggle(700);
+   $('#mex-timeline').slideToggle(300);
     $('#mexican').hide();
   });
 
 
   $('#mloc-next').click(function() {
-    $('#mex-loc').slideToggle(700);
+    $('#mex-loc').slideToggle(300);
      $('#mex-timeline').hide();
    });
 
    $('#mim-next').click(function() {
-     $('#mex-im').slideToggle(700);
+     $('#mex-im').slideToggle(300);
       $('#mex-loc').hide();
     });
 
 
        $('#mvot-next').click(function() {
-         $('#mex-vot').slideToggle(700);
+         $('#mex-vot').slideToggle(300);
           $('#mex-im').hide();
         });
 
 
   $('#start').click(function() {
-  $('.latinDiv').slideToggle(700);
+  $('.latinDiv').slideToggle(300);
   $('#mex-vot').hide();
+  $('footer').show();
          });
 
 
            $('#learnothers').click(function() {
-           $('#begin2').slideToggle(700);
+           $('#begin2').slideToggle(300);
            $('#mex-vot').hide();
+           $('footer').show();
                   });
 
   $( "#miss-text2" ).hide();
@@ -88,29 +90,29 @@ $('#mexbut').click(function() {
 /* PUERTO RICO */
 
 $('#prbut').click(function() {
-   $('#ricans').slideToggle(700);
+   $('#ricans').slideToggle(300);
    $('#begin2').hide();
  });
 
  $('#prtime-next').click(function() {
-    $('#pr-timeline').slideToggle(700);
+    $('#pr-timeline').slideToggle(300);
     $('#ricans').hide();
   });
 
 
   $('#prloc-next').click(function() {
-     $('#pr-loc').slideToggle(700);
+     $('#pr-loc').slideToggle(300);
      $('#pr-timeline').hide();
    });
 
    $('#prim-next').click(function() {
-      $('#pr-im').slideToggle(700);
+      $('#pr-im').slideToggle(300);
       $('#pr-loc').hide();
     });
 
 
     $('#prvot-next').click(function() {
-       $('#pr-vot').slideToggle(700);
+       $('#pr-vot').slideToggle(300);
        $('#pr-im').hide();
      });
 
@@ -119,6 +121,20 @@ $( "#extra" ).hide();
      $('#expandpr').click(function() {
          $('#extra').slideToggle();
      });
+
+
+     $('#start2').click(function() {
+     $('.latinDiv').slideToggle(300);
+     $('#pr-vot').hide();
+     $('footer').show();
+
+            });
+
+  $('#learn2').click(function() {
+  $('#begin2').slideToggle(300);
+  $('#pr-vot').hide();
+  $('footer').show();
+                   });
 
 
 /* CUBA */
@@ -154,5 +170,17 @@ $('#cubbut').click(function() {
           });
 
 
+          $('#start3').click(function() {
+          $('.latinDiv').slideToggle(300);
+          $('#cuban-vot').hide();
+          $('footer').show();
+
+          });
+
+          $('#learn3').click(function() {
+          $('#begin2').slideToggle(300);
+          $('#cuban-vot').hide();
+          $('footer').show();
+                           });
 
 }); /* DO NOT DELETE */
