@@ -19,6 +19,7 @@ I finished all my maps, charts and mostly focused on finishing the timelines, wh
 
  Week 3
 
- I struggled a lot, and I mean, a lot with the buttons. After a few trials, I was able to figure out what was wrong and made them work. This week, I mostly worked on fixing those issues, the locations of the buttons, and completing the CSS & Java. I also finished the "about this page" and reworded a few of the slides.
+ I struggled a lot, and I mean, a lot with the buttons. After a few trials, I was able to figure out what was wrong and made them work. This week, I mostly worked on fixing those issues, the locations of the buttons, and completing the CSS & Java. I also finished the "about this page" and reworded a few of the slides. I also added slideToggle in a few slides' paragraphs.
 
- I still need to work on my media query, which I'll do this weekend.
+ I still need to work on my media query to make the page's interactivity more effective in other devices, which I'll do this weekend. Some of my sections are tied to the height 100vh, which I'll need to change in the media queary. I also plan on altering the first three slides under LatinDiv. I think scrolling and then sliding to the side may be a bit confusing for the user. So I intend to put a few buttons instead of the arrow at the beginning so it's all sliding.
+ The footer is acting up in some of the pages, so I will work on fixing that as well. 
