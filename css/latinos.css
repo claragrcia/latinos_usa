@@ -10,7 +10,7 @@ body {margin: 0px;
 }
 
 
-#learnmore {z-index: 5; !important}
+#learnmore {z-index: 5;}
 
 #top {margin: 0;}
 
@@ -521,5 +521,3 @@ ul li { padding: 5px 0px; }
 
 footer {color: #fff;
         background-color: #000;}
-
-@media {}
