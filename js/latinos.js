@@ -188,7 +188,7 @@ $('#cubbut').click(function() {
 
 
           $('#start3').click(function() {
-          $('top').slideToggle(300);
+          $('#top').slideToggle(300);
           $('#cuban-vot').hide();
           $('footer').show();
 
