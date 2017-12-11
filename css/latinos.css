@@ -75,7 +75,7 @@ h3 {font-size: 150%;}
                   float: right;
                   max-width: 550px;
                   padding: 1em 2em;
-                  margin-left: 2%;}
+                  margin-right: 5%;}
 
 
 .headline1 {background-color: rgb(124, 18, 18);
@@ -585,6 +585,8 @@ footer {color: #fff;
 
 
 #mex-im {height: 140vh;}
+
+#mex-vot {height: 120vh;}
 
 #pr-im {height: 120vh;}
 
