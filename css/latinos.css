@@ -144,10 +144,9 @@ h3 {font-size: 150%;}
 #button2 {margin-left: 47%;
             margin-right: 47%;}
 
-#begin2 {padding-top: 2%;
-  margin-top: 0;
-  background-color: #FFF;
-  height: 100vh;
+#begin2 {
+        background-color: #FFF;
+        height: 100vh;
     }
 
 
@@ -292,12 +291,13 @@ ul li { padding: 5px 0px; }
 .locations1 {height: 120vh;}
 
 #mexican {background-image: url('../images/diasinlatinos.jpg');
-  background-size: cover;
-  background-position: center;
-  position:relative;
-  margin-top: 0;
-  bottom: 0;
-  z-index: 1;}
+        background-size: cover;
+        background-position: center;
+        position:relative;
+        margin-top: 0;
+        bottom: 0;
+        z-index: 1;
+        height: 100vh;}
 
   #mex-gen {padding: 2%;
           margin-left: 3%;
