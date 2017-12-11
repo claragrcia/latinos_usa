@@ -5,9 +5,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>Latinos in the USA</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link href="bootstrap_css/bootstrap.min.css" rel="stylesheet">
 <link href="map/map.css" rel="stylesheet" >
 <link href="css/latinos.css" rel="stylesheet">
 
@@ -19,7 +19,7 @@
 
 <body>
 
-<div class="latinDiv" id="top">
+<div class="original" id="top">
 
 
 
@@ -32,14 +32,13 @@
              <p class="sub2">By Clara Garcia </p>
              <p class="sub2"><em>December 2017</em></p>
 
+             <div id="button3">
+             <button class="btn btn-default" id="beginbutton">Begin</button>
+             </div>
 
                   </div> <!-- names -->
 
-                   <a data-scroll href="#statements">
 
-                    <div class="arrow1"></div>
-
-                  </a>
          </div> <!-- begin -->
 </div> <!-- over -->
 </div>
@@ -52,6 +51,10 @@
   <p class="beginning">For decades, Latinos have been reshaping the United States.</p>
 
   <p class="beginning1"> Today, they are the largest minority in the country. </p>
+
+  <div id="button2">
+  <button class="btn btn-default" id="nextfirst">Next</button>
+  </div>
 
 </div>
 
@@ -75,6 +78,8 @@
 <h1 id="growing"> Growing Phenomenon </h1>
 </div>
 
+
+
 <div class="pheno1">
   <div id="map1"></div>
 </div>
@@ -89,13 +94,17 @@
 
 </div>
 
-  <div class="btn-group" id="buttons">
+<div id="learnaboutgroup">
+      <h3>Learn about: </h3>
 
-<div id="learngroups"><h3>Learn more about each group: </h3></div>
-      <button   class="btn btn-default" id="mexbut">Mexican-Americans/Mexican Immigrants</button>
-      <button   class="btn btn-default" id="prbut">Puerto Ricans</button>
-      <button   class="btn btn-default" id="cubbut">Cuban-Americans/Cuban Immigrants </button>
-  </div>
+      <div id="learngroups" class="btn-group">
+        <button class="btn btn-default" id="mexbut">Mexican-Americans </button>
+        <button class="btn btn-default" id="prbut">Puerto Ricans </button>
+      <button class="btn btn-default" id="cubbut">Cuban-Americans</button>
+    </div>
+
+</div>
+
 
   </section>
 
@@ -267,7 +276,7 @@
 
 <div id="priss">
 
-    <p> <strong>The Commonwealth of Puerto Rico</strong> has been a United States territoriy since 1898 & Puerto Ricans have been American citizens since the Jones-Shafroth Act of 1917.</p>
+    <p> <strong>The Commonwealth of Puerto Rico</strong> has been a United States territory since 1898 & Puerto Ricans have been American citizens since the Jones-Shafroth Act of 1917.</p>
     <p>However, they possess their own local government and constitution. For that reason, they are technically not considered immigrants, as they are often entitled to the benefits and security that is reserved for native-born americans.  Nevertheless, many of them experience some of the struggles characteristic of other latino communities. </p>
 
     <h3 class="expand" id="expandpr">Why are they coming?</h3>
@@ -428,8 +437,6 @@
   </section>
 
 
-
-
   <section id="about">
 
 
@@ -459,46 +466,71 @@
 
   <p><strong><em>Images:</em></strong></p>
   <p><strong> General</strong></p>
-    <ul>
-  <li> <a href='https://commons.wikimedia.org/wiki/File:US_Army_51842_U.S._Army_South_celebrates_Hispanic_Heritage_Month.jpg#/media/File:US_Army_51842_U.S._Army_South_celebrates_Hispanic_Heritage_Month.jpg'>Flags</a></li>
-  <li><a href='https://www.flickr.com/photos/thomashawk/138599986'>Somebody's Little Girl by Thomas Hawk </a></li>
 
-      </ul>
+  <p><a href='https://commons.wikimedia.org/wiki/File:US_Army_51842_U.S._Army_South_celebrates_Hispanic_Heritage_Month.jpg#/media/File:US_Army_51842_U.S._Army_South_celebrates_Hispanic_Heritage_Month.jpg'>Flags</a></p>
+  <p><a href='https://www.flickr.com/photos/thomashawk/138599986'>Somebody's Little Girl by Thomas Hawk </a></p>
+
+
   <p> <strong>Mexico:</strong></p>
-  <ul>
-  <li><a href='https://www.flickr.com/photos/emilymills/24746960319'>Dia sin Latinos: by Emily Mills</a></li>
-  <li><a href="https://commons.wikimedia.org/wiki/File:Latino_Rally_0116_(29797431540).jpg">Latinos for Hillary by Edward Kimmel</a> </li>
-</ul>
 
-<p><strong>Puerto Rico: </strong></p>
-<ul>
-<li><a href='https://commons.wikimedia.org/wiki/File:June_13,_2010_-_Puerto_Rican_Day_Parade_(4699709507).jpg#/media/File:June_13,_2010_-_Puerto_Rican_Day_Parade_(4699709507).jpg'>Puerto Rico Day Parade by Bill de Blasio</a></li>
-<li><a href="https://commons.wikimedia.org/wiki/File:USMC-19735.jpg#/media/File:USMC-19735.jpg">Puerto Rican's vote </a></li>
-</ul>
+  <p><a href='https://www.flickr.com/photos/emilymills/24487782203/'>Dia sin Latinos by Emily Mills</a></p>
+  <p><a href="https://commons.wikimedia.org/wiki/File:Latino_Rally_0116_(29797431540).jpg">Latinos for Hillary by Edward Kimmel</a></p>
 
-<p> <strong>Cuba </strong></p>
-<ul>
-<li><a href="http://archive.defense.gov/news/newsarticle.aspx?id=47228"> Cuban Immigrants</a></li>
-</ul>
-<button class="btn btn-default" id="aboutstart">Go to the start</button>
-</div>
+  <p><a href="https://www.flickr.com/photos/emilymills/24746960319/"> Día sin Latinos by Emily Mills 2 </a></p>
+
+  <p><strong>Puerto Rico: </strong></p>
+
+  <p><a href='https://commons.wikimedia.org/wiki/File:June_13,_2010_-_Puerto_Rican_Day_Parade_(4699709507).jpg#/media/File:June_13,_2010_-_Puerto_Rican_Day_Parade_(4699709507).jpg'>Puerto Rico Day Parade by Bill de Blasio</a></p>
+  <p><a href="https://commons.wikimedia.org/wiki/File:USMC-19735.jpg#/media/File:USMC-19735.jpg">Puerto Rican's vote </a></p>
+
+  <p><a href="https://commons.wikimedia.org/wiki/File:Hurricane_Maria_(2017)170922-Z-BG835-957_(23544537778).jpg#/media/File:Hurricane_Maria_(2017)170922-Z-BG835-957_(23544537778).jpg"> Hurricane Maria </a></p>
+
+
+
+  <p> <strong>Cuba </strong></p>
+
+  <p><a href="http://archive.defense.gov/news/newsarticle.aspx?id=47228"> Cuban Immigrants</a></p>
+
+  <p><a href="https://commons.wikimedia.org/wiki/File:Latinos_for_Trump_2016_RNC.jpg#/media/File:Latinos_for_Trump_2016_RNC.jpg">Latinos for Trump </a></p>
+
+  <p><a href="https://commons.wikimedia.org/wiki/File:Cuban_musician_in_Trinidad.JPG#/media/File:Cuban_musician_in_Trinidad.JPG">Cuban musician by Lucash</a></p>
+
+
+
+  </div>
+
+
+  <button class="btn btn-default" id="aboutstart">Go to the start</button>
 
   </section>
 
 
 
-
   <footer>
+    <section>
   Web page done by Clara Garcia
   <button   class="about" id="aboutsite">About this Site</button>
+</section>
   </footer>
 
+
+<!--Scripts-->
+<!--Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!--Leaflet-->
   <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
-  <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js"></script>
+
+  <!--Jquery & the others-->
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="map/us-states2.js"></script>
    <script src="map/map1.js"></script>
 <script src="js/latinos.js"></script>
+
+
 
 </body>
 </html>

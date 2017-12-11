@@ -2,7 +2,9 @@
   margin-top: 0;
   }
 
-body {margin: 0px;
+body {
+    padding-top: 0;
+    margin-top: 0;
     background: #fff;
     color: #000;
     font-family: 'Open Sans', Verdana, sans-serif;
@@ -10,9 +12,13 @@ body {margin: 0px;
 }
 
 
+.original {
+            margin-top: 0;}
+
+
 #learnmore {z-index: 5;}
 
-#top {margin: 0;}
+
 
 .begin { background-image: url('../images/hispanicflags2.jpg');
   background-size: cover;
@@ -22,13 +28,12 @@ body {margin: 0px;
   bottom: 0;
   height: 100vh;
   z-index: 1;
-}
+  margin-top: 0;}
 
 
-.names {
-      margin-left: 20%;
-      margin-right: 20%;
-    text-shadow: 2px 2px 4px #000000;}
+
+.names {margin-bottom: 5%;
+      text-shadow: 2px 2px 4px #000000;}
 
 
 h1 {
@@ -49,25 +54,42 @@ h2 {font-size: 175%;}
               padding: 3%;}
 
 #title {font-size: 300%;
-        text-align: center;
-        color: #fff;
-      padding-top: 22%;
+      margin-right: 25%;
+      margin-left: 25%;
+      max-width: 600px;
+      text-align: center;
+      color: #fff;
+      padding-top: 15%;
       font-weight: bold;
       border: solid;
-  border-width: 10px;
-  border-right: none;
-  border-left: none;
-  border-top: none;
-  border-color: #000;
-  padding-bottom: 2%;}
+      border-width: 10px;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      border-color: #000;
+      padding-bottom: 2%;}
+
+h3 {font-size: 150%;}
+
+#learnaboutgroup {clear: both;
+                  float: right;
+                  max-width: 550px;
+                  padding: 1em 2em;
+                  margin-left: 2%;}
 
 
+.headline1 {background-color: rgb(124, 18, 18);
+            width: 100%;
+            padding: 1%;
+            padding-left: 2%;
+            margin-top: 0;}
 
 .mex-timeline {margin: 2%;}
 
 .intro1 {height: 100vh;
           color: #fff;
-          background-color: #000;}
+          background-color: #000;
+          align-items: center;}
 
 
 .beginning {font-size: 175%;
@@ -91,7 +113,7 @@ h2 {font-size: 175%;}
         background-position: center;
         position:relative;
         top: 0;
-        bottom: 0;
+        margin-bottom: 0;
         height: 100vh;
         z-index: 1;}
 
@@ -108,31 +130,26 @@ h2 {font-size: 175%;}
             background-color: rgba(91,0,0, 0.7);
               color: #fff;}
 
-.arrow1 {
-  margin-left: 48%;
-  margin-top: 5%;
-  height: 5vw;
-  width: 5vw;
-  border-style: solid;
-  border-color: white;
-  border-width: 0px 1px 1px 0px;
-  transform: rotate(45deg);
-}
 
-#button1 {padding-left: 45%;
-          padding-right: 45%;}
+#button1 {padding-left: 47%;
+          padding-right: 47%;}
 
 
+#button3 {margin-left: 2%;
+          padding-left: 50%;
+          padding-right: 47%;
+          margin-bottom: 10%;
+          }
 
-#begin2 {
-  margin: auto;
+#button2 {margin-left: 47%;
+            margin-right: 47%;}
+
+#begin2 {padding-top: 2%;
+  margin-top: 0;
   background-color: #FFF;
   height: 100vh;
     }
 
-.headline1 {background-color: rgb(124, 18, 18);
-                width: 100%;
-              padding: 2%;}
 
 
 #locmex, #locpr, #loccuban  {height: 400px;
@@ -152,7 +169,6 @@ h2 {font-size: 175%;}
         max-width: 600px;
         margin-left: 2%;}
 
-#learngroups {padding-left: 3%;}
 
 
 #buttons {max-width: 100%;
@@ -160,8 +176,8 @@ h2 {font-size: 175%;}
           clear:both;}
 
 .pheno1 {max-width: 550px;
-        padding: 1em 2em;
-        margin-left: 2%;}
+          padding: 1em 2em;
+          margin-left: 2%;}
 
 
 
@@ -237,6 +253,7 @@ ul li { padding: 5px 0px; }
 
 
 .headings1 {padding-top: 2%;
+            margin-top: 0;
             background-color: rgb(0, 77, 38);
             color: #fff;
             width: 100%;
@@ -249,13 +266,17 @@ ul li { padding: 5px 0px; }
             color: #fff;
             width: 100%;
             padding: 2%;
+            margin-top: 0;
         }
 
 .headings3 {padding-top: 2%;
             background-color: rgb(0, 0, 153);
             color: #fff;
             width: 100%;
-            padding: 2%;}
+            padding: 2%;
+          margin-top: 0;}
+
+.general {margin-top: 0;}
 
 .general1 {height: 100vh;}
 
@@ -266,15 +287,15 @@ ul li { padding: 5px 0px; }
 .tline {height: 120vh;}
 
 
-.locations {height: 135vh;}
+.locations {height: 125vh;}
 
-.locations1 {height: 145vh;}
+.locations1 {height: 120vh;}
 
 #mexican {background-image: url('../images/diasinlatinos.jpg');
   background-size: cover;
   background-position: center;
   position:relative;
-  top: 0;
+  margin-top: 0;
   bottom: 0;
   z-index: 1;}
 
@@ -536,18 +557,55 @@ ul li { padding: 5px 0px; }
 
 
 #site1 {padding: 2%;
-        margin-left: 3%;
+        margin-left: 5%;
         font-size: 90%;
         float: left;}
 
 #evenmore {font-size: 90%;
           float: right;
           padding: 2%;
-          margin-right: 3%;
+          margin-right: 15%;
           }
+
+#aboutstart {clear: both;
+            margin-right: 10%;
+            margin-bottom: 5%;}
 
 #abouttitle {padding-left: 3%;
             background-color: #000;}
 
+#growing {margin: 0;}
+
 footer {color: #fff;
         background-color: #000;}
+
+
+
+@media (max-width:600px) {
+
+
+#mex-im {height: 140vh;}
+
+#pr-im {height: 120vh;}
+
+#votpr {width: 100%;}
+
+#cuban-im {height: 120vh;}
+
+#btn2 {display: inline;
+      margin-left: auto;}
+
+#learngroups {display: inline;
+              margin-right: auto;}
+
+#buttons2 {display: inline;
+            margin-right: auto;}
+
+#buttons3 {display: inline;
+            margin-right: auto;}
+
+#cubaniss {margin-right: 1em;}
+
+#cubaniss2 {margin-left: 1em;}
+
+}

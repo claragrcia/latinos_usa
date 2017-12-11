@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 
-/* only can see latinDiv everything else is hidden */
+/* only can see #top everything else is hidden */
 $('.general').hide();
 $('.general1').hide();
 $('.tline').hide();
@@ -10,28 +10,44 @@ $('.general2').hide();
 $('.locations1').hide();
 $('.general3').hide();
 $('#about').hide();
+$('.intro1').hide();
+$('.intro2').hide();
 
 /* user clicks learn more and growing general appears */
+
+
+$('#beginbutton').click(function() {
+ $('.intro1').slideToggle(300);
+ $('#top').hide();
+ $('footer').hide();
+});
+
+$('#nextfirst').click(function() {
+ $('.intro2').slideToggle(300);
+ $('.intro1').hide();
+});
+
 
 
 
 $('#learnmore').click(function() {
    $('#begin2').slideToggle(300);
-   $('.latinDiv').hide();
+   $('.intro2').hide();
    $('footer').hide();
  });
 
 
  $('#aboutsite').click(function() {
     $('#about').slideToggle(300);
-    $('.latinDiv').hide();
+    $('#top').hide();
     $('footer').hide();
   });
 
 
   $('#aboutstart').click(function() {
-     $('.latinDiv').slideToggle(300);
+     $('#top').slideToggle(300);
      $('#about').hide();
+     $('footer').show();
    });
 
 
@@ -69,7 +85,7 @@ $('#mexbut').click(function() {
 
 
   $('#start').click(function() {
-  $('.latinDiv').slideToggle(300);
+  $('#top').slideToggle(300);
   $('#mex-vot').hide();
   $('footer').show();
          });
@@ -78,7 +94,7 @@ $('#mexbut').click(function() {
            $('#learnothers').click(function() {
            $('#begin2').slideToggle(300);
            $('#mex-vot').hide();
-           $('footer').show();
+             $('footer').hide();
                   });
 
   $( "#miss-text2" ).hide();
@@ -124,7 +140,7 @@ $( "#extra" ).hide();
 
 
      $('#start2').click(function() {
-     $('.latinDiv').slideToggle(300);
+     $('#top').slideToggle(300);
      $('#pr-vot').hide();
      $('footer').show();
 
@@ -133,7 +149,7 @@ $( "#extra" ).hide();
   $('#learn2').click(function() {
   $('#begin2').slideToggle(300);
   $('#pr-vot').hide();
-  $('footer').show();
+  $('footer').hide();
                    });
 
 
@@ -142,6 +158,7 @@ $( "#extra" ).hide();
 $('#cubbut').click(function() {
    $('#cuban').slideToggle(500);
    $('#begin2').hide();
+  $('footer').hide();
  });
 
 
@@ -171,7 +188,7 @@ $('#cubbut').click(function() {
 
 
           $('#start3').click(function() {
-          $('.latinDiv').slideToggle(300);
+          $('top').slideToggle(300);
           $('#cuban-vot').hide();
           $('footer').show();
 
@@ -180,7 +197,7 @@ $('#cubbut').click(function() {
           $('#learn3').click(function() {
           $('#begin2').slideToggle(300);
           $('#cuban-vot').hide();
-          $('footer').show();
+            $('footer').hide();
                            });
 
 }); /* DO NOT DELETE */
